@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson_Link</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Lesson-Link</a>
+
+        <nav>
+            <a href="#" class="active"> Transcribe</a>
+            <a href="#" >Summarize</a>
+            <a href="#" >Download PDF</a>
+            <a href="#" >Ask</a>
+        </nav>
+  </header>
+  <div class="container">
+    <h1>Audio Transcription</h1>
+    <form id="uploadForm">
+      <p>Enter Audio to Transcribe</p>
+      <input type="file" id="audioFile" name="audio" accept="audio/*" required>
+      <button type="submit">Upload and Transcribe</button>
+    </form>
+    <div id="result">
+      <h3>Transcription:</h3>
+      <p id="transcription"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<footer>
+  © 2024 Lesson_Link. All Rights Reserved. | <a href="#">CET_BBSR</a> 
+</footer>
+
+</html>
